@@ -14,7 +14,7 @@ This project implements a simple web application for classifying handwritten dig
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/mnist_classifier_app.git
+    git clone https://github.com/ananty1/mnist_classifier_app.git
     cd mnist_classifier_app
     ```
 
@@ -35,22 +35,24 @@ This project implements a simple web application for classifying handwritten dig
 
 Make sure to train the model if it's not already trained:
 
-```bash
-python src/model.py
+    ```bash
+    python src/model.py
+    ```
 
 
 
-#Run the App
+### Run the App
 To start the web application, run the following command:
 
-```bash
-streamlit run src/app.py
-
+    ```bash
+    streamlit run src/app.py
+    ```
 Visit localhost:8501 in your web browser to interact with the app.
 
 
 Fine-Tuning the Model
 If you want to fine-tune the pre-trained model, run:
 
-```bash
-python src/Fine_Tune_Model.py
+    ```bash
+    python src/Fine_Tune_Model.py
+    ```
